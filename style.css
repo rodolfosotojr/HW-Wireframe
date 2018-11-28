@@ -33,31 +33,77 @@ body {
 
 .section {
     float: left;
-    position: relative;
     width: 495px;
     height: 250px;
     background: #ebebeb;
     text-align: center;
     margin-bottom: 20px;
     padding: 40px;
+    display: block;
+
 
 
 }
 
-#article {
+article {
     background-color: #777;
-    height: 100px;
-    float: relative;
+    height: 180px;
     color: white;
     padding: 20px;
+    display: block;
+}
 
 h1 {
-    position: relative;
-
+    display: block;
+    color: #777;
+    background-color: #ebedeb;
+    padding: 20px;
 }
+
+.article-p {
+    display: block;
+    background-color: #ebedeb;
+    margin-top: 10px;
+    padding: 20px;
+    color: #777;
+}
+
+/*
+.section {
+    float: left;
+    width: 495px;
+    height: 250px;
+    background: #ebebeb;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 40px;
+    display: block;
     
 
+
 }
+
+article {
+    background-color: #777;
+    height: 100px;
+    color: white;
+    padding: 20px;
+    display: block;
+
+
+
+}
+
+h1 {
+    display: block;
+
+}
+
+.article-p {
+    display: block;
+
+}
+*/
 
 #aside {
     float: left;
